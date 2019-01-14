@@ -14,6 +14,8 @@
 		520A1E4E21DFA76A00BAA0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520A1E4C21DFA76A00BAA0B0 /* LaunchScreen.storyboard */; };
 		520A1E5121DFA76A00BAA0B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A1E5021DFA76A00BAA0B0 /* main.m */; };
 		520A1E5B21DFA76A00BAA0B0 /* StellarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A1E5A21DFA76A00BAA0B0 /* StellarTests.m */; };
+		520A1E6721E2606600BAA0B0 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A1E6621E2606600BAA0B0 /* APIManager.m */; };
+		520A1E6A21E8EF7500BAA0B0 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A1E6921E8EF7500BAA0B0 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		520A1E5621DFA76A00BAA0B0 /* StellarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520A1E5A21DFA76A00BAA0B0 /* StellarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarTests.m; sourceTree = "<group>"; };
 		520A1E5C21DFA76A00BAA0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520A1E6521E2606600BAA0B0 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		520A1E6621E2606600BAA0B0 /* APIManager.m */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		520A1E6821E8EF7500BAA0B0 /* Asset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		520A1E6921E8EF7500BAA0B0 /* Asset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				520A1E4221DFA76900BAA0B0 /* AppDelegate.m */,
 				520A1E4421DFA76900BAA0B0 /* ViewController.h */,
 				520A1E4521DFA76900BAA0B0 /* ViewController.m */,
+				520A1E6521E2606600BAA0B0 /* APIManager.h */,
+				520A1E6621E2606600BAA0B0 /* APIManager.m */,
+				520A1E6821E8EF7500BAA0B0 /* Asset.h */,
+				520A1E6921E8EF7500BAA0B0 /* Asset.m */,
 				520A1E4721DFA76900BAA0B0 /* Main.storyboard */,
 				520A1E4A21DFA76A00BAA0B0 /* Assets.xcassets */,
 				520A1E4C21DFA76A00BAA0B0 /* LaunchScreen.storyboard */,
@@ -203,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520A1E6721E2606600BAA0B0 /* APIManager.m in Sources */,
 				520A1E4621DFA76900BAA0B0 /* ViewController.m in Sources */,
+				520A1E6A21E8EF7500BAA0B0 /* Asset.m in Sources */,
 				520A1E5121DFA76A00BAA0B0 /* main.m in Sources */,
 				520A1E4321DFA76900BAA0B0 /* AppDelegate.m in Sources */,
 			);
