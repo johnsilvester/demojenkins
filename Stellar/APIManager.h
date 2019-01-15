@@ -24,7 +24,7 @@ typedef void(^dictionaryCompletion)(NSDictionary *dictionary);
 
 -(void)getAccountInformationForAccount: (NSString*)Account withCompletion:(dictionaryCompletion) completion;
 
-
+-(NSDictionary *)returnPricingAverage: (NSDictionary *)data;
 
 @end
 

@@ -52,8 +52,7 @@
     
     [manager getAssetsWithIssuers:(self.currencyDictionary) withCompletion:^(NSDictionary *info){
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"%@",info);
-            
+           
             
         });
     }];

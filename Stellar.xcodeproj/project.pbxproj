@@ -87,6 +87,7 @@
 		520A1E4021DFA76900BAA0B0 /* Stellar */ = {
 			isa = PBXGroup;
 			children = (
+				520A1E6B21EE419300BAA0B0 /* Frameworks */,
 				520A1E4121DFA76900BAA0B0 /* AppDelegate.h */,
 				520A1E4221DFA76900BAA0B0 /* AppDelegate.m */,
 				520A1E4421DFA76900BAA0B0 /* ViewController.h */,
@@ -111,6 +112,13 @@
 				520A1E5C21DFA76A00BAA0B0 /* Info.plist */,
 			);
 			path = StellarTests;
+			sourceTree = "<group>";
+		};
+		520A1E6B21EE419300BAA0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
